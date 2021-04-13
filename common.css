@@ -168,7 +168,7 @@ a:hover	{ text-decoration: underline; }
 .logo {
 	float: left;
 	width: auto;
-	padding: 10px 13px 0 10px;
+	padding: 5px 13px 0 10px; /* CHANGED! Was 10px 13px 0 10px */
 }
 
 .logo:hover {
@@ -178,8 +178,8 @@ a:hover	{ text-decoration: underline; }
 .site_logo {
 	background-repeat: no-repeat;
 	display: inline-block;
-	width: 149px;
-	height: 52px;
+	width: 100px; /* CHANGED! Was 149px */
+	height: 96px; /* CHANGED! Was 52px */
 }
 
 /* Site description and logo */
@@ -190,6 +190,15 @@ a:hover	{ text-decoration: underline; }
 
 .site-description h1 {
 	margin-right: 0;
+	margin-top: 40px; /* ADDED! */
+	text-transform: uppercase; /* ADDED! */
+	text-align: center; /* ADDED! */
+	text-shadow: 3px 3px 5px black;
+}
+
+/* ADDED! */
+.site-description > p {
+    display: none;
 }
 
 /* Round cornered boxes and backgrounds
