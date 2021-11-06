@@ -213,7 +213,7 @@ dl.details dd {
 /* Icon styles
 ---------------------------------------- */
 .icon.icon-blue, a:hover .icon.icon-blue {
-	color: #196db5;
+	color: darkgreen;
 }
 
 .icon.icon-green, a:hover .icon.icon-green {
