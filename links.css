@@ -14,9 +14,14 @@ a {
 
 /* Coloured usernames */
 .username-coloured {
-	font-weight: bold;
 	display: inline !important;
 	padding: 0 !important;
+	color: #105289 !important;
+}
+
+.username-coloured:hover:after {
+    content: ' ♦';
+    font-weight: bold;
 }
 
 /* Links on gradient backgrounds */
